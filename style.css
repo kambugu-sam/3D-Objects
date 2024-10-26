@@ -1,0 +1,142 @@
+body{
+    width: 595px;
+height: 842px;
+top: -421px;
+left: -298px;
+gap: 0px;
+opacity: 0px;
+background: #FFFFFF;
+
+}
+.upper-line{
+    width: 595px;
+height: 4px;
+gap: 0px;
+opacity: 0px;
+background: #101214;
+
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+header{
+    width: 197px;
+    height: 60px;
+    top: 48px;
+    left: 48px;
+    color: black;
+
+}   
+header, p{
+    font-family: Arial;
+font-size: 24px;
+line-height: 28px;
+text-align: left;
+
+
+}
+header span{
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;    
+}
+#photo{
+    width: 72px;
+    height: 72px;
+    top: 36px;
+    left: 407px;
+    border-radius: 50%;
+
+}
+.left-section{
+    width: 335px;
+    height: 630px;
+    top: 140px;
+    left: 48px;
+    color: #101214;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.right-section{
+    width: 140px;
+    height: 558px;
+    top: 140px;
+    left: 407px;
+    color: #73808D;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.about .small{
+    color: #73808D;
+    font-size: 7px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 0.5px;
+
+}
+.about span{
+    display: block;
+}
+
+.about .title{
+    font-size: 18px;
+    
+}
+.about .details{
+    font-size: 11px;
+    line-height: 18px;
+    word-spacing: 2px;              
+
+}
+.about .co{
+    font-size: 11px;
+}
+.education p span{
+    display: block;
+    font-size: 18px;
+}
+.education .small{
+    color: #73808D;
+    line-height: 18px;
+    letter-spacing: 2px;
+    font-size: 7px;
+}
+.education .xul{
+    font-size: 11px;
+}
+.contact p{
+    font-size: 11px;
+}
+.contact span{
+    display: block;
+
+}
+.title-right{
+    font-size: 15px;
+}
+.knowledge ul{
+    margin: left 0;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.tools #tool{
+    font-size: 11px;
+    display:block;
+}
+.other  span{
+    font-size: 11px;
+    display: block;
+}
+.social span{
+    font-size: 11px;
+    display: block;
+}
