@@ -1,5 +1,5 @@
 :root {
-    --white: #FFFFFF;
+    --white: rgba(246, 246, 241, 0.964);
     --black: #101214;
     --darkish: #73808D;
 }
@@ -10,15 +10,14 @@
     box-sizing: border-box;
 }
 body{
-    width: 595px;
-height: 842px;
-top: -421px;
-left: -298px;
-gap: 0px;
-opacity: 0px;
-background: var(--white);
-color: var(--black);
-font-family: Arial, Helvetica, sans-serif;
+   background: var(--white);
+   color: var(--black);
+   font-family: Arial, Helvetica, sans-serif;
+   width: 595px;
+   height: 842px;
+   margin: auto;
+
+
 }
 .upper-line{
     width: 100%;
@@ -31,47 +30,39 @@ font-family: Arial, Helvetica, sans-serif;
     justify-content: space-evenly;
 }
 header{
-    width: 197px;
-    height: 60px;
-    top: 48px;
-    left: 48px;
+    width: auto;
+    height: 80px;
     color: var(--black);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    display: flex;justify-content: space-between;
+    align-items: center;
+    padding: 40px;
 
 }   
 header, p{
 font-size: 24px;
 line-height: 28px;
-text-align: left;
 
 
 }
 header span{
-    font-family: Arial;
     font-size: 18px;
-    line-height: 28px;
-    text-align: left;    
+    display: block;   
 }
 #photo{
     width: 72px;
     height: 72px;
-    top: 36px;
-    left: 407px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    object-fit: cover;
 
 }
 .left-section{
     width: 335px;
     height: 630px;
-    top: 140px;
-    left: 48px;
 }
 .right-section{
     width: 140px;
     height: 558px;
-    top: 140px;
-    left: 407px;
     color: var(--darkish);
 
 }
@@ -80,8 +71,6 @@ header span{
     font-size: 9px;
     line-height: 18px;
     letter-spacing: 2px;
-    margin-top: 0;
-    margin-bottom: 0.5px;
 
 }
 .about span{
@@ -145,15 +134,22 @@ li{
     font-size: 11px;
     display: block;
 }
-@media (maxi-width: 600px) {
+@media (max-width: 600px) {
     body {
         overflow-y: scroll;
     }
     .container{
-        display: flex;
-        flex-direction: column;
+        display: block;
+        padding: 0 50px;
+
     }
-    header p {
-        font-size: 8px;
+    header{
+        justify-content:space-evenly ;
     }
-}
+    #photo{
+        margin-right: 50px;
+    }
+    .right-section{
+        padding-top: 90px;
+    }
+    }
